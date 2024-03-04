@@ -3,7 +3,7 @@ import http from 'http';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import compression from 'compression';
-import cors from 'cors';  
+import cors from 'cors';
 import mongoose from 'mongoose';
 
 import router from './router';
@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 
 server.listen(8080, () => {
-  console.log('Server running on http://localhost:5501');
+  console.log('Server running on http://localhost:5500');
 });
 
 
